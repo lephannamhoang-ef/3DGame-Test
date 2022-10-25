@@ -11,3 +11,4 @@ Chọn 1 hoặc nhiều animation có sẵn trong project để tạo một game
 - Animation có thể chọn 1 hoặc 1 set animation theo lựa chọn của bản thân
 - Không yêu cầu AI cho enemy (có thể thêm vào nếu muốn)
 - Không yêu cầu vfx (có thể thêm vào nếu muốn)
+- Khi bắt đầu làm, tạo nhánh mới từ nhánh master. Sau đó thể commit nhiều lần nhưng mỗi commit phải có ý nghĩa (Ví dụ: xong một tính năng nào đấy)
