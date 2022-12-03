@@ -20,7 +20,6 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         healthbar.value = health;
-        animator.SetInteger("Action", 1);
         if(healthbar.value == 0)
         {
             Dead();
@@ -29,7 +28,7 @@ public class Enemy : MonoBehaviour
 
     private void Dead()
     {
-        animator.SetInteger("Action", 10);
+        animator.SetBool("isDead", true);
         boxcollider.size = new(1, 0.5f, 2);
     }
 
